@@ -1,0 +1,6 @@
+# pgrecyclebin.control
+comment = 'Recycle bin for dropped tables: moves to "_$recyclebin$" schema and supports flashback'
+default_version = '1.0'
+relocatable = true
+module_pathname = '$libdir/pgrecyclebin'
+requires = ''
